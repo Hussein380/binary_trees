@@ -15,7 +15,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 	{
 		/*if the current node has left child or right child,*/
 	       /*it is a child*/
-		leaves += (!tree->left && !tree->right) ? 1: 0;
+		leaves += (!tree->left && !tree->right) ? 1 : 0;
 
 
 		/*Recursively count the leaves on the left subtree*/
